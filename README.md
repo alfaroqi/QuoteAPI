@@ -5,9 +5,9 @@ this is the API of data scraping https://quotes.toscrape.com enjoy
 ## Built With
 	
 This is a simple project made with
-* [Python 3] (https://www.python.org/)
+* [Python 3](https://www.python.org/)
 * [FastAPI](https://fastapi.tiangolo.com/)
-* [Uvicorn(https://www.uvicorn.org/)
+* [Uvicorn](https://www.uvicorn.org/)
 
 ## Installation
 
