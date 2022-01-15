@@ -15,12 +15,25 @@ class Scrap():
         for q in quotes:
             item = {
                 'text': q.find('span.text', first=True).text.strip(),
-                'Author': q.find('small.author', first=True).text.strip(),
+                'Author': q.find('small.author', first=True).text.strip()   
             }
             # print for checker
-            # print(item) 
+            print(item) 
             qlist.append(item)
 
         return qlist
+
+    # format the data json
+    def formatData(self, data):
+        formattedData = []
+        for item in data:
+            formattedData.append({
+                'quotes': item['text'],
+                'author': item['Author']
+            })
+        return formattedData
+
+
+    
 
 
