@@ -1,6 +1,6 @@
 ## QuoteAPI
 
-this is the API of data scraping https://quotes.toscrape.com enjoy
+
 
 ## Built With
 	
